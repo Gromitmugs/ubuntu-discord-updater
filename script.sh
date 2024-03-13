@@ -22,11 +22,9 @@ echo "
           ..,,,,, */#(///////(((((((((((((#(/.*
 "
 
+echo ==== Checking For Updates 🫡 ====; echo;
 
-
-echo ==== Checking Updates 🫡 ====; echo;
-
-# checking existance
+# checking for discord app
 if ! command -v discord &> /dev/null
 then
     echo Discord could not be found😔
@@ -59,16 +57,19 @@ fi
 
 echo; echo ==== Downloading $download_filename 🫡 ===; echo;
 
-# download installer
 echo • Download and Install Newer Discord Version 🫡
 echo • This may require sudo privillages 🫡
 
+# download the installer
 wget --trust-server-names $download_link &>/dev/null
 
-# # remove old discord package
+# remove old discord package
 sudo dpkg -r discord &>/dev/null
+
+# install the downloaded installer
 sudo dpkg -i $download_filename &>/dev/null
 
+# remove downloaded file
 rm $download_filename
 
 echo "
