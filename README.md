@@ -1,7 +1,9 @@
 # Ubuntu Discord Auto Updater
 
-Auto updates your Discord application.
-Developed and tested on Ubuntu 22.04.
+Tired of getting this? <br>
+<img src="https://github.com/Gromitmugs/ubuntu-discord-updater/assets/86527305/a2efce24-0555-43a5-b7ab-a68c291c8c09" width="600">
+
+This is the auto-update script for your Discord application. Developed and tested on Ubuntu 22.04.
 
 ## Usage
 
