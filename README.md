@@ -16,3 +16,4 @@ This is the auto-update script for your Discord application. Developed and teste
 ## Required Packages
 - `dpkg` -> `sudo apt install dpkg`
 - `curl` -> `sudo apt install curl`
+- `jq` -> `sudo apt install jq`
